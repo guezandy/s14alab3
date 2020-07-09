@@ -1,3 +1,6 @@
 .sublime-workspace
 .idea
 .DS_store
+models/__pycache__/user.cpython-37.pyc
+modules/__pycache__/userform.cpython-37.pyc
+*.pyc
