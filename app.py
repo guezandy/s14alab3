@@ -3,7 +3,7 @@ from models.user import db, User
 from modules.userform import UserForm
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://sclpzykpoiiusc:c1305d2bab60b9a949c6b6a3514ecbf80fb2d2485065a76735717b6983cbf874@ec2-34-206-31-217.compute-1.amazonaws.com:5432/dif1elffb6b86' # 'postgresql://localhost/usersdb'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/usersdb'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = "s14a-key"
 db.init_app(app)
